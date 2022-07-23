@@ -29,10 +29,7 @@ html {
   transition: 30ms;
 }
 
-<<<<<<< HEAD
 samp,
-=======
->>>>>>> master
 mark {
   background: magenta;
   color: var(--woof);
