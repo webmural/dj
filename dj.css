@@ -20,11 +20,7 @@
 
 :any-link {
   color: thistle;
-<<<<<<< HEAD
   transition-property: background-color color filter opacity;
-=======
-  transition-property: opacity color background;
->>>>>>> master
 }
 
 html {
