@@ -40,6 +40,6 @@ header {
 }
 
 samp {
-  font-family: inherit;
   border-radius: 100%;
+  font-family: inherit;
 }
