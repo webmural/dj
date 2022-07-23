@@ -1,5 +1,8 @@
 :root {
+<<<<<<< HEAD
   --samp: 30deg;
+=======
+>>>>>>> master
   --woof: #330330;
 }
 
@@ -20,7 +23,11 @@
 
 :any-link {
   color: thistle;
+<<<<<<< HEAD
   transition-property: background-color color filter opacity;
+=======
+  transition-property: opacity color background;
+>>>>>>> master
 }
 
 html {
@@ -29,16 +36,22 @@ html {
   transition: 30ms;
 }
 
+<<<<<<< HEAD
 samp,
+=======
+>>>>>>> master
 mark {
   background: magenta;
   color: var(--woof);
 }
 
+<<<<<<< HEAD
 samp {
   filter: hue-rotate(var(--samp));
 }
 
+=======
+>>>>>>> master
 @media (prefers-contrast: more) {
   :root {
     background: var(--woof);
