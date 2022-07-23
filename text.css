@@ -38,3 +38,11 @@ header {
   font-size: 2em;
   font-weight: bold;
 }
+
+samp {
+  border-radius: 100%;
+}
+
+abbr samp {
+  font: inherit;
+}

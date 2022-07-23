@@ -1,4 +1,5 @@
 :root {
+  --samp: 30deg;
   --woof: #330330;
 }
 
@@ -19,7 +20,7 @@
 
 :any-link {
   color: thistle;
-  transition-property: opacity color background;
+  transition-property: background-color color filter opacity;
 }
 
 html {
@@ -28,9 +29,14 @@ html {
   transition: 30ms;
 }
 
+samp,
 mark {
   background: magenta;
   color: var(--woof);
+}
+
+samp {
+  filter: hue-rotate(var(--samp));
 }
 
 @media (prefers-contrast: more) {
