@@ -35,13 +35,10 @@ mark {
   color: var(--woof);
 }
 
-<<<<<<< HEAD
 samp {
   filter: hue-rotate(var(--samp));
 }
 
-=======
->>>>>>> master
 @media (prefers-contrast: more) {
   :root {
     background: var(--woof);
